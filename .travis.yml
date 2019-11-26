@@ -1,0 +1,3 @@
+language: objective-c
+osx_image: xcode10.2
+xcode_project: TravisDemo.xcodeproj
