@@ -13,8 +13,6 @@
 		185D7033238D051A00D54819 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185D7032238D051A00D54819 /* Assets.xcassets */; };
 		185D7036238D051A00D54819 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185D7034238D051A00D54819 /* LaunchScreen.storyboard */; };
 		185D7039238D051A00D54819 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D7038238D051A00D54819 /* main.m */; };
-		185D7043238D051A00D54819 /* TravisDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D7042238D051A00D54819 /* TravisDemoTests.m */; };
-		185D704E238D051A00D54819 /* TravisDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D704D238D051A00D54819 /* TravisDemoUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,11 +44,7 @@
 		185D7037238D051A00D54819 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		185D7038238D051A00D54819 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		185D703E238D051A00D54819 /* TravisDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravisDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		185D7042238D051A00D54819 /* TravisDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravisDemoTests.m; sourceTree = "<group>"; };
-		185D7044238D051A00D54819 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		185D7049238D051A00D54819 /* TravisDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravisDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		185D704D238D051A00D54819 /* TravisDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravisDemoUITests.m; sourceTree = "<group>"; };
-		185D704F238D051A00D54819 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				185D7028238D051A00D54819 /* TravisDemo */,
-				185D7041238D051A00D54819 /* TravisDemoTests */,
-				185D704C238D051A00D54819 /* TravisDemoUITests */,
 				185D7027238D051A00D54819 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -112,24 +104,6 @@
 				185D7038238D051A00D54819 /* main.m */,
 			);
 			path = TravisDemo;
-			sourceTree = "<group>";
-		};
-		185D7041238D051A00D54819 /* TravisDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				185D7042238D051A00D54819 /* TravisDemoTests.m */,
-				185D7044238D051A00D54819 /* Info.plist */,
-			);
-			path = TravisDemoTests;
-			sourceTree = "<group>";
-		};
-		185D704C238D051A00D54819 /* TravisDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				185D704D238D051A00D54819 /* TravisDemoUITests.m */,
-				185D704F238D051A00D54819 /* Info.plist */,
-			);
-			path = TravisDemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				185D7043238D051A00D54819 /* TravisDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +253,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				185D704E238D051A00D54819 /* TravisDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
